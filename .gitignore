@@ -1,0 +1,59 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+data/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project-specific binaries
+bin/
+api-server
+banking-ledger-*
+processor-service
+test-api
+test-processor
+
+# Docker volumes and temp files
+.docker/
+tmp/
+
+# Coverage reports
+coverage.out
+coverage.html
