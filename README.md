@@ -131,8 +131,6 @@ export SERVER_PORT="8080"
 |--------|----------|-------------|
 | `GET` | `/health` | System health check |
 
-> 📘 **Complete API Documentation**: See [`api-curl-commands.md`](./api-curl-commands.md) for detailed examples and all supported parameters.
-
 ## API Usage Examples
 
 ### Create Account
@@ -310,9 +308,6 @@ curl -v http://localhost:8080/health  # Verbose health check
 
 ## 📚 Additional Resources
 
-### 📖 **Documentation Files**
-- [`api-curl-commands.md`](./api-curl-commands.md) - Complete API reference with examples
-
 ### 🔧 **Utility Scripts**
 - [`start-local-homebrew.sh`](./start-local-homebrew.sh) - Start all services
 - [`scripts/test-api.sh`](./scripts/test-api.sh) - Test API endpoints
@@ -354,6 +349,6 @@ MIT License - see [`LICENSE`](./LICENSE) file for details.
 
 ---
 
-🏛️ **Banking Ledger Service** - Built with ❤️ using Go, Echo, PostgreSQL, MongoDB, and RabbitMQ
+🏛️ **Banking Ledger Service** - Built by **Aakash Sabharwal** with ❤️ using Go, Echo, PostgreSQL, MongoDB, and RabbitMQ
 
 *For questions or support, please create an issue in the repository.*
